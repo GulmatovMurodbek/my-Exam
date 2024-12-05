@@ -1,0 +1,422 @@
+
+
+.SelectAll
+{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    background-color:white;
+    border: none;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.bntSrkh
+{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.btnAlll
+{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+.filter {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 70px;
+  }
+  
+  .priceRange {
+    margin: 15px 0;
+  }
+  
+  .priceRange label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .priceRange {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ddd;
+    height: 4px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #priceRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #e91e63;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .price-values {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .apply-btn {
+    display: inline-block;
+    background: #e91e63;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .apply-btn:hover {
+    background: #d81b60;
+  }
+ .divIfProduct{
+  position: relative;
+  /* background-color: #dd5e89; */
+  width: 250px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   margin-left: 20px;
+   box-shadow: 0px 0px 10px grey;
+  &:hover{
+    .btnAddToCart{
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+}
+ .box2
+ {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .divAllProduct
+ {
+    display: flex;
+ }
+ .DivTopAll
+  {
+    width: 90%;
+    margin: auto;
+    background-color: black ;
+    margin-top: 40px;
+  }
+
+
+
+
+@media(max-width:420px)
+{
+    .Head{
+        width: 400px;
+        font-size: 20px;
+      }
+      .DivImage
+      {
+        flex-direction: column;
+      }
+      .divMORE
+      {
+        flex-direction: column;
+  
+      }
+      .ImageKalon
+      {
+        width: 350px;
+        margin-left: 20px;
+      }
+      .bottom3
+      {
+        flex-direction: column;
+      }
+      .imageMayda
+      {
+     width: 250px;
+     margin-left: 70px;
+     margin-top: 5px;
+      }
+      .DivSuratho
+     {
+      display: flex;
+      flex-direction: column;
+     }
+     .part3{
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+     }
+     .Flash
+     {
+      font-size: 20px;
+     }
+     .SecondsAll
+     {
+      font-size: 20px;
+     }
+     .Clocks
+     {
+      width: 350px;
+      /* background-color: #009087; */
+     }
+  
+     .Minutes
+     {
+      font-size: 20px;
+     }
+     .divClock
+     {
+      flex-direction: column;
+     }
+     .ProductDiv
+     {
+      width: 280px;
+      /* background-color: #009087; */
+      margin-left: 40px;
+     }
+     .rigth
+     {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 40px;
+      width: 300px;
+     }
+     .dayAll
+     {
+      font-size: 20px;
+     }
+     .HoursOF
+     {
+      font-size: 20px;
+     }
+     .DivSuratho
+     {
+      margin-top: 200px;
+     }
+     .surat4
+     {
+      width: 200px;
+      margin-left: 90px;
+     }
+     .Surat5
+     {
+      width: 250px;
+     }
+      .stop
+      {
+          font-size: 15px;
+          align-items: center;
+      }
+      .MenuAll
+      {
+          display: block;
+      }
+      .SelectLang
+      {
+          width: 100px;
+          font-size: 20px;
+      }
+      .fa-instagram
+  {
+      font-size: 15px;
+      color: rgb(255, 71, 71);
+  }
+  .divAllProduct
+  {
+    flex-direction: column;
+  }
+  .SelectAll
+  {
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .filter
+  {
+    margin-left: 50px;
+  }
+  
+  .fa-twitter
+  {
+      font-size: 15px;
+      color: rgb(94, 94, 255);
+  }
+  .fa-facebook
+  {
+      font-size: 15px;
+      color: rgb(94, 94, 255);
+  }
+  .The
+  {
+      font-size: 15px;
+  }
+  .part1
+  {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .SearchDiv
+  {
+      /* width: 200px; */
+      /* background-color: aqua; */
+      height: 35px;
+      /* border-bottom: 2px solid grey; */
+      border: 2px solid grey;
+      display: flex;
+      border-radius: 10px;
+      align-items: center;
+  
+  }
+  .Search
+  {
+      height: 30px;
+      width: 100px;
+      /* border-radius: 10px; */
+      border: none;
+      /* border-bottom: 2px solid grey; */
+  }
+  .fa-magnifying-glass
+  {
+      font-size: 20px;
+      margin-top: 5px;
+  }
+  .BtnSign
+  {
+      font-size: 20px;
+      border-radius: 10px;
+      border: none;
+      width: 120px;
+      background-color: rgb(97, 97, 255);
+      height: 40px;
+      color: white;
+  }
+  .MenuModal
+  {
+      width: 200px;
+      /* margin-right: -10px; */
+      margin-left: 10px;
+  
+  }
+  
+  .search {
+    flex: 0 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      /* background-color: #333333; */
+  }
+  .search__input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    color: #333333;
+    background-color: #f4f2f2;
+    border: none;
+    padding: 14px 72px 14px 42px;
+    border-radius: 1000px;
+    width: 100px;
+    margin-left: -34px;
+    margin-right: -66px;
+    transition: all 0.2s;
+  }
+  .Menu
+  {
+    font-size: 15px;
+  }
+  .BtnSign
+  {
+    width: 80px;
+    font-size: 15px;
+  }
+  .SuratLogo
+  {
+    width: 50px;
+  }
+  .btnMore
+  {
+    display: none;
+  }
+  .button4{
+    display: none;
+  }
+  .button3
+  {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button2
+  {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-cart-shopping
+  {
+    font-size: 20px;
+  }
+  .fa-user
+  {
+    font-size: 20px;
+  }
+  .btnAll
+  {
+    font-size: 10px;
+    text-align: center;
+    width: 150px;
+  }
+  .box1{
+    row-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+  }
+  .box2
+{
+width:380px;
+/* background-color: #009087; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.SuratSlayder
+{
+width: 380px;
+}
+.part4
+{
+flex-direction: column;
+}
+ .button3
+ {
+    font-size: 20;
+ }
+
+}

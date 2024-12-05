@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Advin.add.page/Main.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="Head">
+        <img src="/Screenshot_9.png" alt="" class="ImgLogo">
+        <div style="display: flex; align-items: center;">
+            <svg style="width: 30px; color:white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+            <input type="text" name="Search" class="Search" placeholder="Search...">
+        </div>
+        <div style="display: flex;">
+            <svg style="width: 20px; color:white ; margin-right:50px" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+            </svg>
+            <p class="Name">
+                Aliev said
+            </p>
+        </div>
+    </div>
+    <div class="Part3">
+        <div class="position">
+            <a href="/Amin.page.Dashboard/Main.html">
+                <button class="btnclickme">
+                    <span><svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+                    </span><span>
+                        Dashboard
+                    </span>
+                </button>
+            </a>
+            <button class="btnclickme">
+                <span>
+                    <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+                    </svg>
+
+                </span>
+                <span>
+                    Orders
+                </span>
+            </button>
+            <a href="/Admin.Product.Page/main.html">
+                <button class="btnclickme">
+                    <span>
+                        <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z" />
+                    </svg>
+                    
+                </span>
+                <span>
+                    Products
+                </span>
+            </button>
+        </a>
+            <button class="btnclickme">
+                <span>
+                    <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+                    </svg>
+                </span>
+                Other
+            </button>
+        </div>
+        <div class="DivRigth">
+            <form action="" class="AddForm">
+                <div class="textHo">
+                    <p class="texthoi"> <-Products / Add new</p>
+                            <div>
+                                <button class="button" type="submit">
+                                    Save
+                                </button>
+                                <button class="button" type="submit">
+                                    Close
+                                </button>
+                            </div>
+                </div>
+                <div style="display: flex; margin-left: 20px">
+                    <div style="margin-top: 10px;">
+                        <div>
+                            <h1>Information</h1>
+                            <input type="text" name="inpName" class="inpName" placeholder="Product Name...">
+                        </div>
+                        <div class="divTop">
+                            <p>Normal</p>
+                            <span><svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linejoin="round"
+                                        d="M6.75 3.744h-.753v8.25h7.125a4.125 4.125 0 0 0 0-8.25H6.75Zm0 0v.38m0 16.122h6.747a4.5 4.5 0 0 0 0-9.001h-7.5v9h.753Zm0 0v-.37m0-15.751h6a3.75 3.75 0 1 1 0 7.5h-6m0-7.5v7.5m0 0v8.25m0-8.25h6.375a4.125 4.125 0 0 1 0 8.25H6.75m.747-15.38h4.875a3.375 3.375 0 0 1 0 6.75H7.497v-6.75Zm0 7.5h5.25a3.75 3.75 0 0 1 0 7.5h-5.25v-7.5Z" />
+                                </svg>
+                            </span>
+                            <span><svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M5.248 20.246H9.05m0 0h3.696m-3.696 0 5.893-16.502m0 0h-3.697m3.697 0h3.803" />
+                                </svg>
+                            </span>
+                            <span><svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.995 3.744v7.5a6 6 0 1 1-12 0v-7.5m-2.25 16.502h16.5" />
+                                </svg>
+                            </span>
+                            <span><svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                                </svg>
+                            </span>
+                            <span><svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.242 5.992h12m-12 6.003H20.24m-12 5.999h12M4.117 7.495v-3.75H2.99m1.125 3.75H2.99m1.125 0H5.24m-1.92 2.577a1.125 1.125 0 1 1 1.591 1.59l-1.83 1.83h2.16M2.99 15.745h1.125a1.125 1.125 0 0 1 0 2.25H3.74m0-.002h.375a1.125 1.125 0 0 1 0 2.25H2.99" />
+                                </svg>
+                            </span>
+                            <span><svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+                            </span>
+                            <span>
+                                <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M5.248 20.246H9.05m0 0h3.696m-3.696 0 5.893-16.502m0 0h-3.697m3.697 0h3.803" />
+                                </svg>
+
+                            </span>
+                        </div>
+                        <div>
+                            <textarea name="Description" class="Description">
+                        </textarea>
+                        </div>
+                        <div>
+                            <select name="SelectCategories" class="SelectCategories">
+                                <option value="1">Woman’s Fashion</option>
+                                <option value="2">Men’s Fashion</option>
+                                <option value="3">Electronics</option>
+                                <option value="4">Home & Lifestyle</option>
+                                <option value="5">Medicine</option>
+                                <option value="6">Sports & Outdoor</option>
+                                <option value="7">Baby’s & Toys</option>
+                                <option value="8">Groceries & Pets</option>
+                                <option value="9">Health & Beauty</option>
+                            </select>
+                            <input type="text" placeholder="Count..." name="InpCout" class="InpCount">
+                            <input type="text" placeholder="Price..." name="InpPrice" class="InpCount">
+                        </div>
+                        <div>
+                            <h2>Options</h2>
+                            <div style="display: flex;">
+                                <fieldset class="filsetSelecetSize">
+                                    <legend style="font-size: 20px;">Size</legend>
+                                    <select name="selectSize" class="InpSelectSize">
+                                        <option value="S">S X</option>
+                                        <option value="M">M X</option>
+                                        <option value="L">L X</option>
+                                        <option value="XL">XL X</option>
+                                    </select>
+                                </fieldset>
+                                <fieldset class="filsetSelecetWidth">
+                                    <legend style="font-size: 20px; ">Weight</legend>
+                                    <select name="SelectWigth" class="SelectWigth">
+                                        <option value="20-30">20kg - 30kg</option>
+                                        <option value="30-40">30kg - 30kg</option>
+                                        <option value="40-50">40kg - 50kg</option>
+                                        <option value="50-60">50kg - 60kg</option>
+                                        <option value="60-70">60kg - 70kg</option>
+                                        <option value="70-80">70kg - 80kg</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="DivColors" style="margin-top: 50px; margin-left: 50px;">
+                            <div style="display: flex; justify-content: space-evenly;width: 100%;">
+                                <p style="width: 50px;height: 50px;background-color: blue;  border-radius: 50%;"></p>
+                                <p style="width: 50px;height: 50px;background-color: red;   border-radius: 50%;"></p>
+                                <p style="width: 50px;height: 50px;background-color: green; border-radius: 50%;"></p>
+                                <p style="width: 50px;height: 50px;background-color: yellow;border-radius: 50%;"></p>
+                                <p style="width: 50px;height: 50px;background-color: blueviolet;border-radius: 50%;"></p>
+                                <p style="width: 50px;height: 50px;background-color: black;border-radius: 50%;"></p>
+                            </div>
+                            <div>
+                                <span>Create a new Color</span> <input type="color" name="ColorInput" width="130px" height="40px">
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="header">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M7 10V9C7 6.23858 9.23858 4 12 4C14.7614 4 17 6.23858 17 9V10C19.2091 10 21 11.7909 21 14C21 15.4806 20.1956 16.8084 19 17.5M7 10C4.79086 10 3 11.7909 3 14C3 15.4806 3.8044 16.8084 5 17.5M7 10C7.43285 10 7.84965 10.0688 8.24006 10.1959M12 12V21M12 12L15 15M12 12L9 15"
+                                            stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                                <p>Browse File to upload!</p>
+                            </div>
+                            <label for="file" class="footer">
+                                <svg fill="#000000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M15.331 6H8.5v20h15V14.154h-8.169z"></path>
+                                        <path d="M18.153 6h-.009v5.342H23.5v-.002z"></path>
+                                    </g>
+                                </svg>
+                                <p>Not selected file</p>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z"
+                                            stroke="#000000" stroke-width="2"></path>
+                                        <path d="M19.5 5H4.5" stroke="#000000" stroke-width="2" stroke-linecap="round">
+                                        </path>
+                                        <path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z"
+                                            stroke="#000000" stroke-width="2"></path>
+                                    </g>
+                                </svg>
+                            </label>
+                            <input id="file" type="file" name="FileImage">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div>
+        <button class="btnPagination1">1</button>
+        <button class="btnPagination2">2</button>
+        <button class="btnPagination3">3</button>
+        <button class="btnPagination4">4</button>
+        <button class="btnPagination4">5</button>
+    </div>
+    <button class="DleteAll"><span><svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+            </svg>
+        </span></button>
+    <!-- <img src="/image.svg" alt=""> -->
+    <input type="text" name="ImpSeacrh" class="inputSearch" id="input" placeholder="Search">
+    <script type="module" src="/Advin.add.page/Main.js"> </script>
+</body>
+
+</html>

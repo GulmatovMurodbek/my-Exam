@@ -1,0 +1,415 @@
+* {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.Head {
+  /* width: 20px; */
+  width: 90%;
+  height: 70px;
+  background-color: rgb(1, 1, 29);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Part3 {
+  display: flex;
+}
+
+.ImgLogo {
+  width: 200px;
+  height: 40px;
+}
+
+.Search {
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-color: rgb(1, 1, 29);
+  color: white;
+}
+
+.Part3 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.position {
+  background-color: rgb(1, 1, 29);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: start;
+  row-gap: 26px;
+
+}
+
+.top {
+  display: flex;
+}
+
+.Product {
+  width: 330px;
+}
+
+/* .Top
+  {
+    display: flex;
+  } */
+.Name {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* From Uiverse.io by biswacpcode */
+.btnclickme {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btnclickme::before {
+  margin-left: auto;
+}
+
+.btnclickme::after,
+.btnclickme::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.btnclickme:hover.btnclickme::after,
+.btnclickme:hover::before {
+  width: 100%;
+}
+
+.btnclickme {
+  width: 200px;
+  text-align: start;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.btnclickme:hover {
+  background-color: white;
+  color: grey;
+}
+
+.texthoi {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #504b4b;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.button::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.textHo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btnBefoida {
+  width: 120px;
+  font-size: 20px;
+  height: 45px;
+  background-color: white;
+  border: 2px solid rgb(64, 64, 255);
+  margin-left: 3px;
+}
+
+.btnBefoida:hover {
+  background-color: grey;
+  color: white;
+}
+
+.btnAdd {
+  width: 120px;
+  font-size: 20px;
+  height: 45px;
+  border: none;
+  background-color: rgb(71, 71, 255);
+  color: white;
+}
+
+.RigthDiv {
+  width: 75%;
+  /* background-color: #504b4b; */
+  /* margin: auto; */
+  margin-top: 20px;
+}
+
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(234, 76, 137, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+.divAll {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: #0d0c22; */
+  /* background-color: #504b4b; */
+  width: 250px;
+  margin-top: 20px;
+  height: 170px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.divleft {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.delete {
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+.Edit {
+  background-color: white;
+  border: none;
+  /* margin-top: 20px; */
+}
+
+.boxDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* From Uiverse.io by Yaya12085 */
+.container {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5px;
+  background-color: rgba(0, 110, 255, 0.041);
+}
+
+.header {
+  flex: 1;
+  width: 100%;
+  border: 2px dashed royalblue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header svg {
+  height: 100px;
+}
+
+.header p {
+  text-align: center;
+  color: black;
+}
+
+.footer {
+  background-color: rgba(0, 110, 255, 0.075);
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: black;
+  border: none;
+}
+
+.footer svg {
+  height: 130%;
+  fill: royalblue;
+  background-color: rgba(70, 66, 66, 0.103);
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.205);
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+}
+
+#file {
+  display: none;
+}
+
+.Addmodal {
+  margin: auto;
+  border: none;
+}
+.Editmodal{
+  margin: auto;
+  border: none;
+}
+
+.InpName {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+}
+.Save
+{
+  font-size: 20px;
+  background-color: rgb(3, 3, 255);
+  border: none;
+  width: 70px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.Censer
+{
+  font-size: 20px;
+  background-color: rgb(3, 3, 255);
+  border: none;
+  width: 8  0px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 170px;
+}

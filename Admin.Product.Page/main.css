@@ -1,0 +1,430 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .Head {
+    /* width: 20px; */
+    width: 90%;
+    height: 70px;
+    background-color: rgb(1, 1, 29);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Part3{
+    display: flex;
+  }
+  
+  .ImgLogo {
+    width: 200px;
+    height: 40px;
+  }
+  
+  .Search {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: rgb(1, 1, 29);
+    color: white;
+  }
+  
+  .Part3 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+  
+  .position {
+    background-color: rgb(1, 1, 29);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: start;
+    row-gap: 26px;
+  
+  }
+  
+  .top {
+    display: flex;
+  }
+  
+  .Product {
+    width: 330px;
+  }
+  
+  /* .Top
+  {
+    display: flex;
+  } */
+  .Name {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  /* From Uiverse.io by biswacpcode */
+    .btnclickme {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btnclickme::before {
+    margin-left: auto;
+  }
+  
+  .btnclickme::after,
+  .btnclickme::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .btnclickme:hover.btnclickme::after,
+  .btnclickme:hover::before {
+    width: 100%;
+  }
+  
+  .btnclickme {
+    width: 200px;
+    text-align: start;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .btnclickme:hover {
+    background-color: white;
+    color: grey;
+  }
+  .HeadName
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    margin-left: 100px;
+  }
+  .RigthtDiv
+  {
+    width: 60%;
+    margin-top: 30px;
+  }
+  .btnAdd
+  {
+    background-color: rgb(86, 86, 248);
+    height: 40px;
+    width:140px;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+  }
+  /* From Uiverse.io by vinodjangid07 */ 
+.InputContainer {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+    margin-top: 10px;
+  }
+  .bottom-Div
+  {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    /* align-items: center; */
+
+  }
+  .DleteAll
+  {
+    border: none;
+    background-color: white;
+    color: red;
+    /* margin-top: 10px; */
+    /* margin-left: 40px; */
+  }
+  
+  .input {
+    width: 170px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+  }
+  
+  .labelforsearch {
+    cursor: text;
+    padding: 0px 12px;
+  }
+  
+  .searchIcon {
+    width: 13px;
+  }
+  
+  .border {
+    height: 40%;
+    width: 1.3px;
+    background-color: rgb(223, 223, 223);
+  }
+  
+  .micIcon {
+    width: 12px;
+  }
+  
+  .micButton {
+    padding: 0px 15px 0px 12px;
+    border: none;
+    background-color: transparent;
+    height: 40px;
+    cursor: pointer;
+    transition-duration: .3s;
+  }
+  
+  .searchIcon path {
+    fill: rgb(114, 114, 114);
+  }
+  
+  .micIcon path {
+    fill: rgb(255, 81, 0);
+  }
+  
+  .micButton:hover {
+    background-color: rgb(255, 230, 230);
+    transition-duration: .3s;
+  }
+  .SelectName
+  {
+    width:200px;
+    height: 45px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* margin-bottom: 5px; */
+  }
+  /* From Uiverse.io by KhaledMatalkah */ 
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .custom-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  .custom-checkbox .checkmark {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    transform-style: preserve-3d;
+  }
+  
+  .custom-checkbox .checkmark::before {
+    content: "\2713";
+    font-size: 16px;
+    color: transparent;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    background-color: #333;
+    border-color: #333;
+    transform: scale(1.1) rotateZ(360deg) rotateY(360deg);
+  }
+  
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark::before {
+    color: #fff;
+  }
+  
+  .custom-checkbox:hover {
+    color: #666;
+  }
+  
+  .custom-checkbox:hover .checkmark {
+    border-color: #666;
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  
+  .custom-checkbox input[type="checkbox"]:focus + .checkmark {
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  .custom-checkbox .checkmark,
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    transition: background-color 1.3s, border-color 1.3s, color 1.3s, transform 0.3s;
+  }
+  table
+  {
+   width: 800px;
+   margin-left: 100px;
+   margin-top: 20px;
+   border-collapse: collapse;
+  }
+  .out
+  {
+    padding: 5px;
+    background-color: #333;
+    color: lightgrey;
+  }
+  .surat4
+  {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  .tdNameAll
+  {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+  }
+  .checbox
+  {
+    margin-left: 5px;
+  }
+  tr{
+    border-bottom:2px solid grey;
+    }
+    .tdAction
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .editbtn
+    {
+        border: none;
+        background-color: white;
+        color: rgb(77, 77, 255);
+    }
+    .deletebtn
+    {
+        border: none;
+        background-color: white;
+        color: rgb(255, 69, 69);
+    }
+    .Couttd
+    {
+        font-size: 20px;
+        color: grey;
+    }
+    .tdCategori
+    {
+        font-size: 20px;
+    }
+    .tdPrice
+    {
+        text-align: center;
+        font-size: 20px
+    }
+    .Bottom2{
+      /* width: 100%; */
+      margin: auto;
+      margin-left: 400px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      /* margin-left: 100px; */
+    }
+    .btnPagination1
+    {
+      height:30px;
+      width: 50px;
+      font-size: 20px;
+      border: none;
+      background-color: white;
+    }
+    .btnPagination2
+    {
+      height:30px;
+      width: 50px;
+      font-size: 20px;
+      border: none;
+      background-color: white;
+    }
+    .btnPagination3
+    {
+      height:30px;
+      width: 50px;
+      font-size: 20px;
+      border: none;
+      background-color: white;
+    }
+    .btnPagination4
+    {
+      height:30px;
+      width: 50px;
+      font-size: 20px;
+      border: none;
+      background-color: white;
+    }
+    .btnPagination5
+    {
+      height:30px;
+      width: 50px;
+      font-size: 20px;
+      border: none;
+      background-color: white;
+    }
+    .btnPagination1:hover{
+      background-color: rgb(108, 108, 255);
+      color: rgba(6, 6, 134, 0.747);
+      border-radius: 5px;
+    }
+    .btnPagination2:hover{
+      background-color: rgb(108, 108, 255);
+      color: rgba(6, 6, 134, 0.747);
+      border-radius: 5px;
+    }
+    .btnPagination3:hover{
+      background-color: rgb(108, 108, 255);
+      color: rgba(6, 6, 134, 0.747);
+      border-radius: 5px;
+    }
+    .btnPagination4:hover{
+      background-color: rgb(108, 108, 255);
+      color: rgba(6, 6, 134, 0.747);
+      border-radius: 5px;
+    }
+    .btnPagination5:hover{
+      background-color: rgb(108, 108, 255);
+      color: rgba(6, 6, 134, 0.747);
+      border-radius: 5px;
+    }
